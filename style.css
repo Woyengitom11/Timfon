@@ -1,0 +1,28 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero section */
+.hero-section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Collection cards */
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.navbar-toggler{
+    /* background: blue !important; */
+    border: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:hover{
+    box-shadow: none;
+    /* background-color: red; */
+}
